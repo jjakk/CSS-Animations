@@ -1,0 +1,8 @@
+
+*{
+  font-family: sans-serif;
+}
+
+*:not(strong){
+  font-weight: normal;
+}
