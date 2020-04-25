@@ -6,3 +6,19 @@
 *:not(strong){
   font-weight: normal;
 }
+
+body{
+  background-color: #f4f4f4;
+}
+
+section{
+  padding: 25px;
+  border: 1px solid #e2e2e2;
+  background: white;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+section h2{
+  margin-top: 0px;
+}
