@@ -1,0 +1,26 @@
+
+#burger{
+  width: 25px;
+}
+
+#burger div{
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #303030;
+  margin: 0px;
+  margin-top: 3px;
+  transition: transform 0.5s, opacity 0.5s;
+}
+
+#burger:hover #line1{
+  transform: rotate(-45deg) translateY(8px);
+}
+
+#burger:hover #line2{
+  opacity: 0;
+}
+
+#burger:hover #line3{
+  transform: rotate(45deg) translateY(-8px);
+}
